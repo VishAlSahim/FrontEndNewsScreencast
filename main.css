@@ -85,3 +85,20 @@ ol, ul {
 li {
 
 }
+
+/* ANIMATION */
+
+.is-liked {
+  animation: flash 2s;
+}
+
+/* ANIMATION */
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 0;
+  }
+  25%, 75% {
+    opacity: 1;
+  }
+}
